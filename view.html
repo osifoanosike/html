@@ -1,0 +1,120 @@
+<html>
+	<head>
+		<link href="view.css" rel="stylesheet" type="text/css">
+		<title>HTML Form Exercise</title>
+	</head>
+	<body>
+		<section id="content">
+			<h3>HTML form exercise</h3>
+			<p>
+				<span class="important">Please note:</span>
+				This Examples demonstrate how HTML forms can be used. Submit button should submit the buuton and reset buton should reset the form ( revert the changes in form fields). The form layout should be the same as below.
+			</p>
+
+			<form name="contact_form">
+				<div class="form-section">
+					<label for="name">Your Name*: </label>
+					<input id="name" type="text"/>
+				</div>
+
+				<div class="form-section">
+					<label for="email">Email*:</label>
+					<input id="email" type="text"/>
+				</div>
+
+				<div class="form-section">
+					<label for="phone">Phone number:</label>
+					<input id="phone" type="text"/>
+				</div>
+
+				<div class="form-section">
+					<label for="website">Website*:</label>
+					<input id="website" placeholder="http://"/ type="text">
+				</div>
+
+				<div class="form-section">
+					<label class="block-label" for="comment">Comments*:</label>
+					<textarea id="comment" rows="5" cols="17"></textarea>
+				</div>
+
+				<div class="form-section">
+					<label class="small-header">Text field</label>
+					<label for="name">Your name:</label>
+					<input id="name" type="text"/>
+				</div>
+
+				<div class="form-section">
+					<label class="small-header">Password field</label>
+					<label for="name">Password:</label>
+					<input id="name" type="password"/>
+				</div>
+
+				<div class="form-section">
+					<label class="small-header">Radio buttons</label>
+					<span class="force-block">Do you like pizza?</span>
+					<div>
+						<input type="radio" name="like-pizza" value="yes"/>
+						<label>Yes</label>
+					</div>
+					<div>
+						<input type="radio" name="like-pizza" value="no"/>
+						<label>No</label>
+					</div>
+					<div>
+						<input type="radio" name="like-pizza" value="maybe"/>
+						<label>Maybe</label>
+					</div>
+					<div>
+						<input type="radio" name="like-pizza" value="never"/>
+						<label>Never tried</label>
+					</div>
+				</div>
+
+				<div class="form-section">
+					<label class="small-header">Check Box</label>
+					<input id="name" type="checkbox"/>
+					<label>Check this box if you like our service</label>
+				</div>
+
+				<div class="form-section">
+					<label class="small-header" for="feedback">Text area</label>
+					<label class="force-block">Anything you want to say?</label>
+					<textarea id="feedback" rows="5" cols="30"></textarea>
+				</div>
+
+        <div class="form-section">
+          <label class="small-header" for="feedback">I Like</label>
+          <select multiple>
+            <option>mushrooms</option>
+            <option>green peppers</option>
+            <option>onions</option>
+            <option>olives</option>
+          </select>
+        </div>
+
+        <div class="form-section">
+          <label class="small-header" for="feedback">Menu</label>
+          <label class="force-block">Your favorite color</label>
+          <select>
+            <option>red</option>
+            <option>blue</option>
+            <option>green</option>
+            <option>purple</option>
+          </select>
+        </div>
+
+        <div class="form-section">
+          <label class="small-header" for="feedback">Attach</label>
+          <input type="file"/>
+        </div>
+
+         <div class="form-section">
+          <label class="small-header" for="feedback">Buttons</label>
+          <input type="submit"/>
+          <input type="reset"/>
+        </div>
+
+			</form>
+		</section>
+	</body>
+</html>

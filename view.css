@@ -1,0 +1,31 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+#content {
+	padding: .6em;
+	width: 70%;
+	margin: 0 auto;
+	background: #f2f2f2;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+div.radio-select label {
+	display: block;
+}
+
+.force-block {
+	display: block;
+	margin: .7em;
+}
+
+.small-header {
+	display: inline-block;
+	margin-top: 1em;
+	font-weight: bold;
+	display: block;
+}
